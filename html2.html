@@ -1,0 +1,112 @@
+﻿<html>
+<head>
+	<title>RevSecureTech</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="RevSecureTech.png">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+<div class="preloader">
+	<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+		<path fill="currentColor"
+			  d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+		</path>
+	</svg>
+</div>
+
+<script>
+	window.onload = function () {
+		document.body.classList.add('loaded_hiding');
+		window.setTimeout(function () {
+			document.body.classList.add('loaded');
+			document.body.classList.remove('loaded_hiding');
+		}, 500);
+	}
+</script>
+
+<script>
+	$(window).on('load', function () {
+		$('body').addClass('loaded_hiding');
+		window.setTimeout(function () {
+			$('body').addClass('loaded');
+			$('body').removeClass('loaded_hiding');
+		}, 500);
+	}
+</script>
+
+<div class="row d-flex justify-content-center">
+	<nav class="navbar navbar-expand-lg  fixed-top bg-white">
+		<div class="container-fluid">
+			<a class="navbar-brand header_link header_link-is-active text-white">RevSecureTech</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse flex-column" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="html.html">Головна</a>
+					<a class="nav-link" href="html2.html">Про Ajax</a>
+					<a class="nab-link p-2">
+						<div class="button1">
+							<div class="button-wrapper">
+								<div class="text">Контакти</div>
+								<span class="icon">+380673235245</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="video">
+		<video class="img-fluid" autoplay muted preload="metadata" width="100%">
+			<source type="video/mp4" src="Ajax.mp4">
+		</video>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="content_text">
+
+		</div>
+	</div>
+</div>
+
+<main class="main">
+
+	<div class="grid">
+
+		<h1>Про Ajax</h1>
+
+
+
+		<p>Система охорони Ajax є передовим рішенням у сфері безпеки, що забезпечує надійний захист будь-якого об'єкту. Вона поєднує в собі передові технології, ефективність та зручність в управлінні.</p>
+		<p>Основою системи охорони Ajax є бездротові компоненти, що дозволяють швидко та зручно встановлювати систему безпеки без потреби прокладання дротів. Це робить процес встановлення простим та зменшує час і зусилля, пов'язані зі стандартними провідними системами охорони.</p>
+		<p>Одним із ключових елементів системи є центральний блок управління, який виконує функцію мозку системи. Він забезпечує контроль та керування всіма підключеними компонентами, такими як датчики руху, дверні/віконні контакти, камери, клавіатури, сирени та інші. Центральний блок управління комунікує з компонентами через захищений бездротовий протокол зв'язку, що забезпечує надійну передачу даних.</p>
+		<p>Система Ajax пропонує широкий спектр функцій, які дозволяють забезпечити повний контроль та безпеку об'єкту. До основних можливостей системи належать:</p>
+		<ol>
+			<li>Виявлення руху: Датчики руху реагують на небажану активність в зоні встановлення та сповіщають про це власника системи.</li><br>
+			<li>Дверні/віконні контакти: Вони контролюють стан дверей, вікон та інших доступних входів. У разі несанкціонованого відкриття спрацьовує сигнал тривоги.</li><br>
+			<li>Камери спостереження: Система Ajax підтримує підключення камер, що дозволяє здійснювати візуальний контроль та відеозапис подій.</li><br>
+			<li>Сирени: В разі спрацювання сигналу тривоги система активує сирени, які відлякують потенційних зловмисників та сповіщають оточуючих про небезпеку.</li><br>
+			<li>Мобільний додаток: Ajax має власний мобільний додаток, який дозволяє зручно керувати системою з будь-якого місця за допомогою смартфона або планшета. Користувач може отримувати сповіщення про тривоги, контролювати статус системи та виконувати необхідні налаштування.</li><br>
+			<li>Зв'язок з централізованою охоронною службою: При спрацюванні тривожного сигналу, система Ajax може підключитися до централізованої охоронної служби або надсилати сповіщення на визначені контакти.</li><br>
+		</ol>
+		<p>Система охорони Ajax відрізняється високою надійністю, ефективністю та зручністю в управлінні. Вона є ідеальним рішенням для будь-якого об'єкту, будь то житловий будинок, офіс, магазин або промисловий об'єкт, який потребує надійного забезпечення безпеки.</p>
+	</div>
+
+</main>
+<div class="footer">
+	<footer>
+		Відео взято з офіційного <a href="https://www.youtube.com/@ajaxsystems8076/featured">youtube каналу Ajax system</a>.
+	</footer>
+</div>
+</body>
+</html>
