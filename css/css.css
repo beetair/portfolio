@@ -9,7 +9,7 @@
 	object-fit: cover;
 }
 
-@media (max-width:730px){
+@media (max-width:900px){
 	video {
 		display: none;
 	}
